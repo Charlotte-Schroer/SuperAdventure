@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace SuperAdventureLibrary
 {
-    public class HealingPotion
+    public class HealingPotion : Item
     {
-        public int Id {  get; set; }
-        public string Name { get; set; }
-        public string NamePlural { get; set; }
         public int AmountToHeal { get; set; }
     }
 }
